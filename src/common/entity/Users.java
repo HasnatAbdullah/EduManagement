@@ -16,9 +16,6 @@ public class Users{
         userList.add(new User(13,"Akbor Hossain","CSE","Brilliant", "akbor", "1234", 1));
         userList.add(new User(14,"Jahed Hasan","CSE","Brilliant", "jahed", "1234", 1));
         userList.add(new User(15,"Anamul Hoque","CSE","Brilliant", "anamul", "1234", 1));
-        userList.add(new User(16,"Nawsheen Ahmed Chowdhury","CSE","Brilliant", "nawsheen", "1234", 1));
-        userList.add(new User(17,"Sharmin Akter","CSE","Brilliant", "sharmin", "1234", 1));
-
     }
 
     public List<User> getUserList() {
