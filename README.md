@@ -1,2 +1,2 @@
 # EduManagement
- Created as a intern project.
+ Created as an intern project.
