@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 
-public class Assignment implements Serializable {
+public class Assignment implements Serializable  {
     private String assignmentId;
     private String assignmentName;
     private String assignmentSubject;
