@@ -66,11 +66,11 @@ public class ReviewStudentsSubmitedAssignmentController implements Initializable
                 byte[] byteArray = (byte[]) responseDataMap.get("byteArray");
                 String fileName= (String) responseDataMap.get("fileName");
 
-                File file= new File(ClientConfig.fileRecivePath);
+                File file= new File(ClientConfig.fileReceivePath);
                 FileUtilClient fileUtilClient= new FileUtilClient(file);
                 fileUtilClient.clientReciveFile(byteArray, "/"+fileName);
 
-                messageLabel.setText("File Download Successfull!!  "+ ClientConfig.fileRecivePath+fileName);
+                messageLabel.setText("File Download Successfull!!  "+ ClientConfig.fileReceivePath+fileName);
 
             }else {
                 messageLabel.setText("File Download Unsuccessfull!!");

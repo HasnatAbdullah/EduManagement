@@ -60,7 +60,7 @@ public class AssignmentController implements Initializable {
                 String fileNo= (String) responseDataMap.get("fileName");
                 String extention= (String) responseDataMap.get("extention");
 
-                File file= new File(ClientConfig.fileRecivePath);
+                File file= new File(ClientConfig.fileReceivePath);
                 FileUtilClient fileUtilClient= new FileUtilClient(file);
                 fileUtilClient.clientReciveFile(byteArray, "/Assignment_"+fileNo+"."+extention);
 

@@ -128,7 +128,7 @@ public class Check {
 //        }
 
 //=============================================================================
-        String path = "E:/FileTransfer/files/server/client/teacher/assignments/Assignment_1637753564.txt";
+        String path = "/home/dit/DivineIT/eduManagement/files/FileTransfer/files/server/client/teacher/assignments/Assignment_1637753564.txt";
 
         System.out.println(path.substring(path.lastIndexOf('/') + 1));
 

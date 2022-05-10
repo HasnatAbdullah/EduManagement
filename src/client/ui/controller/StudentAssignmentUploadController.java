@@ -62,11 +62,11 @@ public class StudentAssignmentUploadController implements Initializable {
                 String fileName = (String) responseDataMap.get("fileName");
                 String extention = (String) responseDataMap.get("extention");
 
-                File file= new File(ClientConfig.fileRecivePath);
+                File file= new File(ClientConfig.fileReceivePath);
                 FileUtilClient fileUtilClient= new FileUtilClient(file);
                 fileUtilClient.clientReciveFile(byteArray, "/Assignment_"+fileName+"."+extention);
 
-                String location= ClientConfig.fileRecivePath+"/Assignment_"+fileName+"."+extention;
+                String location= ClientConfig.fileReceivePath+"/Assignment_"+fileName+"."+extention;
                 File fileloc= new File(location);
 
                 if(fileloc.exists()){
